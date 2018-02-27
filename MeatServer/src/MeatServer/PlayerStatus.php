@@ -10,7 +10,7 @@ class PlayerStatus{
     public function __construct(PlayerData $playerData){
         $this->playerData = $playerData;
         $this->status = [
-            "coin" => 0,
+            "coin" => 1,
             "cont" => 0,
             "singles_play" => 0,
             "singles_win" => 0,
